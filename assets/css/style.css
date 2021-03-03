@@ -150,6 +150,7 @@ header {
 .jumbotron-text h1 {
   color: white;
   font-size: 300%;
+  font-weight: 400;
   /* 350% ? */
   margin-bottom: 30px;
 }
@@ -178,6 +179,7 @@ main .banner{
 .banner-text h2{
   color: black;
   margin-bottom: 6px;
+  font-weight: 500;
 }
 
 .banner-text p{
@@ -193,5 +195,62 @@ main .banner{
   padding: 0 10%;
   background-color: white;
 }
+/*/ MAIN CONTAINER */
+
+/* MAIN SECTION */
+.main-section{
+  width: 100%;
+  height: 50%;
+}
+
+.main-section-1{
+  background-color: lightseagreen;
+}
+
+.main-section-1 .skills{
+  width: calc(100% / 3);
+  height: 100%;
+  background-color: red;
+  float: left;
+  text-align: center;
+}
+
+.main-section-1 figure{
+  width: 50%;
+  background-color: chartreuse;
+  margin: auto;
+  display: inline-block;
+  padding: 3%;
+}
+
+.main-section-1 figure img{
+  width: 70%;
+  margin-bottom: 5px;
+}
+
+.main-section-1 h2{
+  color: #7cbb04;
+  font-weight: 500;
+  margin-bottom: 20px;
+  padding: 0 3%;
+}
+
+.main-section-1 p{
+  color: #929293;
+  padding: 0 4.5%;
+}
+
+hr{
+  width: 30%;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.main-section-2{
+  background-color: lightslategrey;
+}
+/* / MAIN SECTION */
+
+
 
 /*/ MAIN CONTAINER */
