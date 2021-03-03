@@ -159,14 +159,14 @@ header {
 /* MAIN */
 main {
   width: 100%;
-  height: 1050px;
+  /* height: 1050px; */
   /* background-color: darkgreen; */
 }
 
 /* MAIN BANNER */
 main .banner {
   width: 100%;
-  height: 12%;
+  /* height: 12%; */
   background-color: #d4d3d3;
   min-width: 800px;
 }
@@ -175,6 +175,7 @@ main .banner {
   text-align: center;
   height: 100%;
   padding-top: 2.5%;
+  padding-bottom: 2.5%;
 }
 
 .banner-text h2 {
@@ -255,7 +256,7 @@ hr.full-width {
 /* / MAIN SECTION 1 */
 
 .main-section-2 {
-  background-color: lightslategrey;
+  /* background-color: lightslategrey; */
 }
 
 .main-section-2 .livel {
@@ -298,3 +299,44 @@ hr.full-width {
   color: blue;
 }
 /*/ MAIN CONTAINER */
+
+/* FOOTER */
+footer{
+  width: 100%;
+  height: 120px;
+  background-color: #d4d3d3;
+  min-width: 800px;
+}
+
+.footer-container{
+  width: 100%;
+  height: 100%;
+  min-width: 1200px;
+  padding: 0 10%;
+}
+
+.footer-container-left {
+  width: 50%;
+  height: 100%;
+  line-height: 120px;
+}
+
+.footer-container-left h2{
+  color: black;
+  font-weight: 500;
+}
+
+.footer-container-right {
+  width: 50%;
+  text-align: right;
+  height: 100%;
+  line-height: 120px;
+}
+
+.contact, .selection, footer.btn-large{
+  display: inline;
+  padding-right: 35px;
+}
+
+
+------------------------
