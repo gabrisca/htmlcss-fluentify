@@ -154,3 +154,44 @@ header {
   margin-bottom: 30px;
 }
 /* / HEADER JUMBOTRON*/
+
+/* MAIN */
+main{
+  width: 100%;
+  height: 1050px;
+  background-color: darkgreen;
+}
+
+/* MAIN BANNER */
+main .banner{
+  width: 100%;
+  height: 12%;
+  background-color: #D4D3D3;
+}
+
+.banner-text{
+  text-align: center;
+  height: 100%;
+  padding-top: 2.5%;
+}
+
+.banner-text h2{
+  color: black;
+  margin-bottom: 6px;
+}
+
+.banner-text p{
+  color: #8F8F8F;
+  font-size: 1.1em;
+}
+/* / MAIN BANNER */
+
+/* MAIN CONTAINER */
+.main-container{
+  width: 100%;
+  height: 88%;
+  padding: 0 10%;
+  background-color: white;
+}
+
+/*/ MAIN CONTAINER */
