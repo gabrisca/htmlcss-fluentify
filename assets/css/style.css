@@ -157,42 +157,42 @@ header {
 /* / HEADER JUMBOTRON*/
 
 /* MAIN */
-main{
+main {
   width: 100%;
   height: 1050px;
-  background-color: darkgreen;
+  /* background-color: darkgreen; */
 }
 
 /* MAIN BANNER */
-main .banner{
+main .banner {
   width: 100%;
   height: 12%;
-  background-color: #D4D3D3;
+  background-color: #d4d3d3;
   min-width: 800px;
 }
 
-.banner-text{
+.banner-text {
   text-align: center;
   height: 100%;
   padding-top: 2.5%;
 }
 
-.banner-text h2{
+.banner-text h2 {
   color: black;
   margin-bottom: 6px;
   font-weight: 500;
 }
 
-.banner-text p{
-  color: #8F8F8F;
+.banner-text p {
+  color: #8f8f8f;
   font-size: 1.1em;
 }
 /* / MAIN BANNER */
 
 /* MAIN CONTAINER */
-.main-container{
+.main-container {
   width: 100%;
-  height: 88%;
+  /* height: 76%; */
   padding: 0 10%;
   background-color: white;
   padding-top: 20px;
@@ -201,16 +201,18 @@ main .banner{
 /*/ MAIN CONTAINER */
 
 /* MAIN SECTION */
-.main-section{
+.main-section {
   width: 100%;
-  height: 50%;
+  margin-bottom: 30px;
+  /* height: 50%; */
 }
+/* MAIN SECTION 2*/
 
-.main-section-1{
+.main-section-1 {
   /* background-color: lightseagreen; */
 }
 
-.main-section-1 .skills{
+.main-section-1 .skills {
   width: calc(100% / 3);
   height: 100%;
   /* background-color: red; */
@@ -218,43 +220,81 @@ main .banner{
   text-align: center;
 }
 
-.skills-image{
+.skills-image {
   width: 80%;
-  height: 30%;
+  height: 100px;
   /* background-color:darkgoldenrod; */
   display: inline-block;
 }
 
-.skills-image img{
+.skills-image img {
   height: 100%;
 }
 
-.main-section-1 h2{
+.main-section-1 h2 {
   color: #7cbb04;
   font-weight: 500;
   margin-bottom: 20px;
   padding: 0 3%;
 }
 
-.main-section-1 p{
+.main-section-1 p {
   color: #929293;
   padding: 0 4.5%;
 }
 
-hr{
+hr {
   width: 20%;
   margin: auto;
   margin-bottom: 20px;
 }
 
+hr.full-width {
+  width: 100%;
+}
+/* / MAIN SECTION 1 */
 
-.main-section-2{
+.main-section-2 {
   background-color: lightslategrey;
 }
-/* / MAIN SECTION */
 
+.main-section-2 .livel {
+  width: calc(100% / 2);
+  /* height: 100px; */
+  /* background-color: red; */
+  float: left;
+  text-align: center;
+  text-align: left;
+  padding-left: 5%;
+  padding-right: 5%;
+}
 
+.main-section-2 .livel.livel-image {
+  /* background-color: darkgoldenrod; */
+}
 
+.main-section-2 .livel.livel-image img {
+}
+
+.main-section-2 h2 {
+  color: black;
+  margin-bottom: 6px;
+  font-weight: 500;
+  font-size: 1.8em;
+  padding-left: 5%;
+  padding-right: 2%;
+  margin-bottom: 10px;
+}
+
+.main-section-2 p {
+  padding-left: 5%;
+  margin-bottom: 10px;
+}
+
+.main-section-2 a {
+  padding-left: 5%;
+  margin-bottom: 10px;
+  font-size: 0.8em;
+  color: blue;
+}
 /*/ MAIN CONTAINER */
-
-
