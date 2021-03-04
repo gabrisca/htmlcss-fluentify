@@ -568,6 +568,28 @@ main .banner {
 .company .structure a:nth-of-type(1){
   color: #80B607;
 }
-
 /* / MAIN SECTION 7 */
 
+/* MAIN SECTION 8 */
+.main-section-8 {
+  width: 100%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 10%;
+  margin: auto;
+  background-color: #0c325a;
+}
+
+.main-section-8 h2 {
+  color: white;
+  font-weight: 500;
+  font-size: 1.8em;
+  padding-right: 2%;
+  margin-bottom: 22px;
+  margin-top: 22px;
+}
+
+.main-section-8 span{
+  color: #FBA504;
+}
+/* / MAIN SECTION 8 */
