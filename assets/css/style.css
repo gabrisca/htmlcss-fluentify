@@ -24,6 +24,21 @@ body {
   font-size: 14px;
   color: grey;
 }
+
+.btn.btn-green.help {
+  position: fixed;
+  bottom: 0;
+  right: 14%;
+}
+
+.btn.btn-green.help a {
+  text-decoration: none;
+  color: white;
+}
+
+.btn.btn-green.help:hover a {
+  color: rgba(255, 255, 255, 0.801);
+}
 /* / GENERAL */
 
 /* HEADER */ /*  HEADER CONTAINER */
@@ -69,7 +84,6 @@ header {
 /* / HEADER CONTAINER */
 
 /* HEADER MENU */
-
 .menu-inline {
   list-style: none;
 }
@@ -151,7 +165,6 @@ header {
   color: white;
   font-size: 300%;
   font-weight: 400;
-  /* 350% ? */
   margin-bottom: 30px;
 }
 /* / HEADER JUMBOTRON*/
@@ -159,14 +172,11 @@ header {
 /* MAIN */
 main {
   width: 100%;
-  /* height: 1050px; */
-  /* background-color: darkgreen; */
 }
 
 /* MAIN BANNER */
 main .banner {
   width: 100%;
-  /* height: 12%; */
   background-color: #d4d3d3;
   min-width: 800px;
 }
@@ -190,13 +200,10 @@ main .banner {
 }
 /* / MAIN BANNER */
 
-
 /* MAIN SECTION 1*/
 .main-section-1 {
   width: 99%;
-  /* margin: auto; */
   padding: 2% 9%;
-  margin: auto;
   border-bottom: 1px solid lightgray;
   min-width: 700px;
 }
@@ -204,7 +211,6 @@ main .banner {
 .main-section-1 .skills {
   width: calc(100% / 3);
   height: 100%;
-  /* background-color: red; */
   float: left;
   text-align: center;
 }
@@ -212,7 +218,6 @@ main .banner {
 .skills-image {
   width: 80%;
   height: 100px;
-  /* background-color:darkgoldenrod; */
   display: inline-block;
 }
 
@@ -221,12 +226,11 @@ main .banner {
 }
 
 .skills-text {
-  /* width: 80%; */
   height: 200px;
   display: inline-block;
 }
 
-.skills-text-title{
+.skills-text-title {
   width: 100%;
   height: 40%;
 }
