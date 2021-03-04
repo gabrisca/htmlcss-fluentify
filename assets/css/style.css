@@ -349,8 +349,6 @@ main .banner {
 
 .main-section-4 .discover {
   width: calc(100% / 2);
-  text-align: center;
-  text-align: left;
   padding-left: 5%;
   padding-right: 5%;
 }
@@ -409,7 +407,6 @@ main .banner {
   width: 100%;
   padding: 6% 10%;
   margin: auto;
-  border-bottom: 1px solid lightgray;
   min-width: 700px;
   text-align: left;
 }
@@ -460,3 +457,40 @@ main .banner {
   color: blue;
 }
 /* / MAIN SETION 5 */
+
+/* MAIN SECTION 6 */
+.main-section-6 {
+  width: 100%;
+  padding-top: 6%;
+  padding-bottom: 6%;
+  padding-left: 10%;
+  padding-right: 63.5%;
+  margin: auto;
+  /* min-width: 700px; */
+  background-color: #0c325a;
+}
+
+.main-section-6 .find_out {
+  /* padding-left: 5%;
+  padding-right: 5%; */
+}
+
+.main-section-6 h2 {
+  color: white;
+  font-weight: 500;
+  font-size: 1.8em;
+  padding-right: 2%;
+  margin-bottom: 22px;
+  margin-top: 22px;
+}
+
+.main-section-6 p,
+.main-section-4 a {
+  margin-bottom: 22px;
+}
+
+.main-section-6 .btn-large{
+  padding: 5px 10px;
+}
+
+/* / MAIN SECTION 6 */
